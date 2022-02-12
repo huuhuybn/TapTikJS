@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useState,lazy } from 'react';
 function App() {
   const [link,setLink] = useState();
   return (
@@ -23,7 +23,7 @@ function App() {
             setLink(data.data.play)
           });
 
-        }}>Download</button>
+        }} download>Download</button>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
