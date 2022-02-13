@@ -9,12 +9,12 @@ function App() {
 
             <header className="App-header">
                 <h1 className="App-link">PINTEREST VIDEO DOWNLOADER</h1>
-                <h2>Download Video Pinterest HD, 2K</h2>
+                <h2 style={{color : 'black'}}>Download Video Pinterest HD, 2K</h2>
 
                 <div style={{flexDirection : 'row', width : '100%'}}>
-                <input style={{borderWidth: 1, borderColor: 'blue',height : 40, borderRadius: 5}}
+                <input style={{borderWidth: 1, borderColor: 'blue',height : 40,width : '100%', borderRadius: 5}}
                        placeholder={'Enter Pinterest Link'}/>
-                <button style={{ height : 40}} title={'Download'} onClick={() => {
+                <button style={{ height : 40, marginTop : 16}} title={'Download'} onClick={() => {
                     const myHeaders = new Headers({
                         "x-rapidapi-host": "tiktok-video-no-watermark2.p.rapidapi.com",
                         "x-rapidapi-key": "2ede18d1bfmsh717c6e42745b666p11ca16jsn68dd7903ab84",
